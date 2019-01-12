@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--GridView中每个按钮的布局文件，用于定义适配器的生成-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text_button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/selector_button"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="计算器"
+        android:textColor="@color/button_color"
+        android:textSize="22sp"
+        />
+
+</LinearLayout>
